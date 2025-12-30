@@ -1,0 +1,105 @@
+/* --- Color palette (dark teal/blue + light gray) --- */
+:root{
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --primary: #123a4a;     /* dark teal */
+  --primary2: #1f5b73;    /* teal-blue */
+  --accent: #2aa3b5;      /* aqua accent */
+  --border: #e5e7eb;
+  --good: #16a34a;
+  --warn: #f59e0b;
+}
+
+/* page */
+.stApp {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* top header bar */
+.header {
+  background: linear-gradient(90deg, var(--primary), var(--primary2));
+  padding: 18px 22px;
+  border-radius: 18px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(2, 6, 23, 0.12);
+  margin-bottom: 14px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+
+.header p {
+  margin: 6px 0 0 0;
+  font-size: 14px;
+  opacity: .9;
+}
+
+/* cards */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 16px 16px;
+  box-shadow: 0 8px 18px rgba(2, 6, 23, 0.06);
+}
+
+/* section title */
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: var(--text);
+}
+
+/* small badges */
+.badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(42, 163, 181, 0.12);
+  color: var(--primary2);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* prediction box */
+.pred {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #fbfdff;
+}
+
+.pred strong { font-size: 16px; }
+.pred small { color: var(--muted); }
+
+.hr {
+  height: 1px;
+  background: var(--border);
+  margin: 10px 0;
+}
+
+/* streamlit widgets tweaks */
+.stButton > button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  padding: 10px 14px;
+  font-weight: 800;
+}
+.stButton > button:hover { filter: brightness(0.95); }
+
+.stFileUploader, .stSelectbox, .stSlider {
+  border-radius: 14px !important;
+}
