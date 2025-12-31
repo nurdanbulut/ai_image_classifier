@@ -119,6 +119,12 @@ Arayüz özellikleri:
 
 <img width="1080" height="955" alt="Ekran görüntüsü 2025-12-30 194127" src="https://github.com/user-attachments/assets/7f3d2d3a-a6d9-444c-a6c5-706d64f0d3e9" />
 
+## 🎥 Uygulama Demo Videosu
+
+📽️ Uygulamanın çalışma anına ait demo videosunu izlemek için aşağıdaki bağlantıya tıklayabilirsiniz:
+
+👉 [Demo videosunu izlemek için tıklayın](https://github.com/nurdanbulut/Animal_image_classifier/blob/main/app/assets/20251231_125335.mp4)
+
 
 ---
 
